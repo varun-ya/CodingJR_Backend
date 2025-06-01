@@ -1,4 +1,4 @@
-module github.com/varun-ya/CodingJR_backend.git
+module your_project
 
 go 1.21
 

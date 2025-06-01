@@ -8,6 +8,6 @@ while ! nc -z "$HOST" "$PORT"; do
   sleep 1
 done
 
-echo "✅ MySQL is up at $HOST:$PORT. Starting the app..."
+echo " MySQL is up at $HOST:$PORT. Starting the app..."
 
 exec "$@"
