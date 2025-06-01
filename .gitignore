@@ -1,0 +1,28 @@
+# Binaries and build outputs
+*.exe
+
+# Local configuration files
+.env
+.env.local
+
+
+#editor settings
+.vscode/
+
+
+#logs
+logs/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Docker-related
+**/docker-compose.override.yml
+
+# Go coverage and test files
+*.cover
+*.coverage
+
+# Temporary files
+tmp/
